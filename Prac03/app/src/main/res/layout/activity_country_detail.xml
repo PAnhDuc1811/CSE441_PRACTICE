@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/detailCountryFlag"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/country_flag"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/detailCountryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Country Name"
+        android:textColor="#FF5722"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detailCountryCapital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capital"
+        android:textSize="18sp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/detailCountryPopulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Population"
+        android:textSize="18sp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/detailCountryArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Area"
+        android:textSize="18sp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/detailCountryDensity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Density"
+        android:textSize="18sp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/detailCountryWorldShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="World Share"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Quay lại" />
+</LinearLayout>
