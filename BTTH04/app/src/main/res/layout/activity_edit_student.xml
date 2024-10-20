@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddStudentActivity">
+
+    <EditText
+        android:id="@+id/edtName2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Họ Tên"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/edtMSV2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="MSSV"
+        app:layout_constraintTop_toBottomOf="@+id/edtName2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/edtClass2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Lớp"
+        app:layout_constraintTop_toBottomOf="@+id/edtMSV2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/edtGPA2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Điểm Trung Bình"
+        app:layout_constraintTop_toBottomOf="@+id/edtClass2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/btnSave2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sửa Sinh Viên"
+        app:layout_constraintTop_toBottomOf="@+id/edtGPA2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

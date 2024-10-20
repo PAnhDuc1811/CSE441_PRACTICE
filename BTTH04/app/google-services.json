@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "534828855545",
+    "project_id": "masaki-ddde8",
+    "storage_bucket": "masaki-ddde8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534828855545:android:42d820c3ebbd542f3c7228",
+        "android_client_info": {
+          "package_name": "com.example.btth04"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIjpXb71rGl99dnrM2jBnMl41eulD1UCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
